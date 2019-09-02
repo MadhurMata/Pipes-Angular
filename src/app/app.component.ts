@@ -25,6 +25,13 @@ heroe = {
     calle: "Primera",
     casa: "19"
   }
-}
+};
+
+promiseValue = new Promise( (resolve, reject)=>{
+
+  setTimeout(() => {
+    resolve('I have got the data')
+  }, 3500);
+});
 
 }
