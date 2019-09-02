@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   
 name = "Fernando";
+wrongName = "madHur mata heRRera"; 
 
 arr = [1,2,3,4,5,6,7,8,9,10];
 
@@ -36,4 +37,8 @@ promiseValue = new Promise( (resolve, reject)=>{
 
 fecha = new Date();
 
+video = "oRdbvGgPPiw"
+
 }
+
+

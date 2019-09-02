@@ -83,6 +83,16 @@
         <td>  date:'dd - MMMM' </td>
         <td>  {{ fecha | date:'dd - MMMM' }} </td>
      </tr>
+     <tr>
+        <td> {{  wrongName  }} </td>
+        <td> Uppercase </td>
+        <td>  {{ wrongName | uppercase  }} </td>
+     </tr>
+     <tr>
+        <td> {{  wrongName  }} </td>
+        <td> Uppercase </td>
+        <td>  {{ wrongName | uppercase: false  }} </td>
+     </tr>
 
     </tbody>
   </table>
@@ -97,6 +107,9 @@
      {{ heroe | json }}
   </pre>
 
+  <h4>Youtube <small>video</small></h4>
+  <hr>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 </div>
