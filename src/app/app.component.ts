@@ -39,6 +39,8 @@ fecha = new Date();
 
 video = "oRdbvGgPPiw"
 
+activated:boolean = true;
+
 }
 
 
