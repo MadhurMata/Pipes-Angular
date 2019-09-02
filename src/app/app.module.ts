@@ -6,12 +6,14 @@ import { registerLocaleData } from '@angular/common';
 registerLocaleData(localeEs);
 
 import { AppComponent } from './app.component';
-import {UppercasePipe} from './pipes/uppercase.pipe'
+import {UppercasePipe} from './pipes/uppercase.pipe';
+import { SafedomPipe } from './pipes/safedom.pipe'
 
 @NgModule({
   declarations: [
     AppComponent,
-    UppercasePipe
+    UppercasePipe,
+    SafedomPipe
   ],
   imports: [
     BrowserModule
