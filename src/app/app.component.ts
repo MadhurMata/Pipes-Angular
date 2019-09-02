@@ -34,4 +34,6 @@ promiseValue = new Promise( (resolve, reject)=>{
   }, 3500);
 });
 
+fecha = new Date();
+
 }
